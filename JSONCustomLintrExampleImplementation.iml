@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.m2/repository/com/zachary_moore/JSONCustomLintr/0.0.1/JSONCustomLintr-0.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.m2/repository/org/json/json/20180813/json-20180813.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.gradle/caches/modules-2/files-2.1/com.j2html/j2html/1.3.0/d3ecb2cb1d971c50a39f8bcb1ff5ad6e24c732f0/j2html-1.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/zsmoore/.gradle/caches/modules-2/files-2.1/com.j2html/j2html/1.3.0/6c9e5bb79cadfd06d71dcf87ab9fb92ff15067f4/j2html-1.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.m2/repository/com/zachary_moore/JSONCustomLintr/0.0.1/JSONCustomLintr-0.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.m2/repository/org/json/json/20180813/json-20180813.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.gradle/caches/modules-2/files-2.1/com.j2html/j2html/1.3.0/d3ecb2cb1d971c50a39f8bcb1ff5ad6e24c732f0/j2html-1.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/zsmoore/.gradle/caches/modules-2/files-2.1/com.j2html/j2html/1.3.0/6c9e5bb79cadfd06d71dcf87ab9fb92ff15067f4/j2html-1.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.m2/repository/com/zachary_moore/JSONCustomLintr/0.0.1/JSONCustomLintr-0.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.m2/repository/org/json/json/20180813/json-20180813.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/zsmoore/.gradle/caches/modules-2/files-2.1/com.j2html/j2html/1.3.0/d3ecb2cb1d971c50a39f8bcb1ff5ad6e24c732f0/j2html-1.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/zsmoore/.gradle/caches/modules-2/files-2.1/com.j2html/j2html/1.3.0/6c9e5bb79cadfd06d71dcf87ab9fb92ff15067f4/j2html-1.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>

@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java{
+            srcDirs = ['src/java']
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.zachary_moore:JSONCustomLintr:0.0.1'
+}
+
+task lintJson(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'main.linting.Runner'
+    args './src/resources'
+}
