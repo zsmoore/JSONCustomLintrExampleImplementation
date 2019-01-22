@@ -23,3 +23,5 @@ task lintJson(type: JavaExec) {
     main = 'main.linting.Runner'
     args './src/resources'
 }
+
+build.dependsOn lintJson

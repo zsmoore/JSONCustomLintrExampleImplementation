@@ -116,4 +116,7 @@ In this repo we implemented a gradle task to be able to be tied into any build i
   When trying to hook up to existing repos we can take 2 approaches:  
 
   1. Make lint rules in an existing project that holds our json files (as seen here)  
-  2. Make a separate library to hold our json lint rules, import into an existing project, and set up a build integration from there.
+  2. Make a separate library to hold our json lint rules, import into an existing project, and set up a build integration from there.  
+    
+# Report output  
+![Report from running gradle task](https://www.zachary-moore.com/assets/pictures/exampleLint.png)
