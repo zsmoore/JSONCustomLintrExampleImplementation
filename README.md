@@ -1,5 +1,5 @@
 # JSONCustomLintrExampleImplementation
-Implementation Repo for https://github.com/zsmoore/JSONCustomLintr  
+Implementation Repo for [JSONCustomLintr](https://github.com/zsmoore/JSONCustomLintr)  
 Highlighting simplicity and gradle build integration
   
 # File Structure  
