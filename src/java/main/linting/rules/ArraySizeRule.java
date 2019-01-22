@@ -7,7 +7,7 @@ import com.zachary_moore.lint.LintRule;
 import com.zachary_moore.objects.JSONArray;
 
 /**
- * Prevent Arrays from being over size 5
+ * Prevent Arrays from being certain over size
  */
 public class ArraySizeRule {
 
