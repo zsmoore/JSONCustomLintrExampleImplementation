@@ -8,14 +8,14 @@ The file structure for this repo is pretty simple.
 src/
     java.main/
         linting/
-            rules/
+            linting.rules/
                ArraySizeRule.java
                DisallowedStringRule.java
                JSONObjectKeyRule.java
-            Register.java
-            Runner.java 
+            linting.Register.java
+            linting.Runner.java
 ```
-In our rules folder we have a static method which will generate our `LintRule` to be used in the `Register.java` file.  
+In our linting.rules folder we have a static method which will generate our `LintRule` to be used in the `linting.Register.java` file.
 
 # Implementation Explanation
 
@@ -58,10 +58,10 @@ public class ArraySizeRule {
   
 We simply make a `LintImplementation` and build it into our `LintRule`.  
 
-After that we register all of our rules in `Register.java` as so:  
+After that we register all of our linting.rules in `linting.Register.java` as so:
 
 ```Java
-public class Register {
+public class linting.Register {
 
     public static LintRegister getLintRegister() {
         LintRegister lintRegister = new LintRegister();
@@ -80,10 +80,10 @@ public class Register {
 }
 ```
   
-We then use the `LintRegister` in the main `Runner.java` class.  
+We then use the `LintRegister` in the main `linting.Runner.java` class.
 
 ```Java
-public class Runner {
+public class linting.Runner {
 
     public static void main(String[] args) {
         if (args.length != 1) {
@@ -91,7 +91,7 @@ public class Runner {
         }
         String filePath = args[0];
         ReportRunner reportRunner =
-                new ReportRunner(new LintRunner(Register.getLintRegister(), filePath));
+                new ReportRunner(new LintRunner(linting.Register.getLintRegister(), filePath));
         reportRunner.report("build/reports");
     }
 }
@@ -106,7 +106,7 @@ In this repo we implemented a gradle task to be able to be tied into any build i
   ``` gradle
   task lintJson(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    main = 'main.linting.Runner'
+    main = 'linting.Runner'
     args './src/resources'
 }
   ```
@@ -115,8 +115,8 @@ In this repo we implemented a gradle task to be able to be tied into any build i
   # Tying into existing repos  
   When trying to hook up to existing repos we can take 2 approaches:  
 
-  1. Make lint rules in an existing project that holds our json files (as seen here)  
-  2. Make a separate library to hold our json lint rules, import into an existing project, and set up a build integration from there.  
+  1. Make lint linting.rules in an existing project that holds our json files (as seen here)
+  2. Make a separate library to hold our json lint linting.rules, import into an existing project, and set up a build integration from there.
     
 # Report output  
 ![Report from running gradle task](https://www.zachary-moore.com/assets/pictures/exampleLint.png)
